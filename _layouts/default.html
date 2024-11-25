@@ -42,7 +42,9 @@
 	</head>
 	<body>
 		{%- include header.html -%}
-		<main class="mx-auto">{{ content }}</main>
+		<main class="mx-auto">
+			<div class="d-flex flex-column justify-content-center">{{ content }}</div>
+		</main>
 		{%- include footer.html -%}
 	</body>
 </html>

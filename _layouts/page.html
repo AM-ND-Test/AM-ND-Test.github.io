@@ -2,10 +2,35 @@
 layout: default
 ---
 
+<div class="d-flex align-items-center justify-content-center pt-4">
+	<h1>{{page.title}}</h1>
+</div>
+
 {{ content }}
-<div class="d-flex flex-column">
-	<h3>
-		<a href="https://github.com/AM-ND-Test/{{page.repo}}/releases/latest/download/Files.zip">Download Latest</a>
-	</h3>
-	<p><a href="https://github.com/AM-ND-Test/{{page.repo}}/releases/">Previous Versions</a></p>
+<div class="d-flex flex-row justify-content-center align-items-center pb-5">
+	<button
+		type="button"
+		class="btn btn-dark mx-4"
+		onclick="document.location = 'https://github.com/AM-ND-Test/{{page.repo}}/releases/latest/download/Files.zip'">
+		Download
+	</button>
+	<button
+		type="button"
+		class="btn btn-dark mx-4"
+		onclick="document.location = 'https://github.com/AM-ND-Test/{{page.repo}}/releases'">
+		Release Notes
+	</button>
+	<button
+		type="button"
+		class="btn btn-outline-dark mx-4"
+		onclick="document.location = 'https://github.com/AM-ND-Test/{{page.repo}}/releases/'">
+		Previous Versions
+	</button>
+
+	<button
+		type="button"
+		class="btn btn-outline-dark mx-4"
+		onclick="document.location = 'https://github.com/AM-ND-Test/{{page.repo}}'">
+		Source
+	</button>
 </div>

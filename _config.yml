@@ -21,7 +21,7 @@
 title: Nidec Drives Applications
 email: controltechniques@mail.nidec.com
 description: >- # this means to ignore newlines until "baseurl:"
- Collection of Drive-Specific Applications for use in Nidec Drives Products
+ Global Applications Team of Nidec Drives
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: NidecDrivesApps

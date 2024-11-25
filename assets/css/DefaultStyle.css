@@ -24,6 +24,8 @@
     box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
 
+
+
 header {
     background-color: black;
     color: white;
@@ -31,11 +33,19 @@ header {
     font-size: x-large;
 }
 
+footer {
+    background-color: black;
+    color: white;
+    box-shadow: 0 50vh 0 50vh #000;
+}
+
 main{
     max-width: 75vw;
     background-color: white;
     color: black;
-    min-height: 75vh;
+    min-height: 90vh;
+    align-content: center;
+    justify-content: center;
 }
 
 body{
