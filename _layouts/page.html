@@ -2,9 +2,7 @@
 layout: default
 ---
 
-<div class="d-flex align-items-center justify-content-center pt-4">
-	<h1>{{page.title}}</h1>
-</div>
+
 
 {{ content }}
 <div class="d-flex flex-row justify-content-center align-items-center pb-5">
@@ -17,7 +15,7 @@ layout: default
 	<button
 		type="button"
 		class="btn btn-dark mx-4"
-		onclick="document.location = 'https://github.com/AM-ND-Test/{{page.repo}}/releases'">
+		onclick="document.location = 'https://github.com/AM-ND-Test/{{page.repo}}/releases/latest'">
 		Release Notes
 	</button>
 	<button
