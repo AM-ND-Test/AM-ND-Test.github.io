@@ -2,14 +2,11 @@
 layout: default
 ---
 
-
-
-{{ content }}
 <div class="d-flex flex-row justify-content-center align-items-center pb-5">
 	<button
 		type="button"
 		class="btn btn-dark mx-4"
-		onclick="document.location = 'https://github.com/AM-ND-Test/{{page.repo}}/releases/latest/download/Files.zip'">
+		onclick="document.location = 'https://github.com/AM-ND-Test/{{page.repo}}/releases/latest/download/{{page.package}}'">
 		Download
 	</button>
 	<button
@@ -32,3 +29,4 @@ layout: default
 		Source
 	</button>
 </div>
+{{ content }}

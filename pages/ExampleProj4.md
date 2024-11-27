@@ -3,6 +3,8 @@ layout: page
 title: Solar Pump Solution
 permalink: /pages/ExampleProj4
 repo: ND-TestRepo2
+package: Files.zip
+
 ---
 
 

@@ -3,6 +3,8 @@ layout: page
 title: Duty Assist
 permalink: /pages/ExampleProj2
 repo: ND-TestRepo2
+package: Files.zip
+
 ---
 
 
